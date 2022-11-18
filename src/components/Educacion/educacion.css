@@ -1,0 +1,83 @@
+.edu_titulo h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #937DC2;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.educacion{
+    height: 90vh;
+}
+
+.edu_escuelas{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    height: 30vh;  
+}
+
+.edu_escuelas p{
+    font-size: 1.5rem;
+    color: #E8A0BF;
+}
+
+.edu_escuelas h1{
+    color: #937DC2;
+    margin-bottom: 10px;
+}
+
+.edu_upiicsa{
+    width: 100%;
+    margin: 10px;
+}
+
+.edu_cetis{
+    width: 100%;
+    margin: 10px;
+}
+.certificaciones{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.cer_menu{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+
+.cer_menu p{
+    background-color: #E8A0BF;
+    padding: 15px;
+    border-right-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cer_links{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cer_links ul{
+    width: 25%;
+    justify-content: center;
+    list-style:none;
+}
+
+.cer_links ul li {
+    margin: 10px;
+    font-size: 1.5rem;
+    color: #E8A0BF;
+}
+
+.cer_links i {
+    margin-right: 5px;
+    color: #937DC2;
+}

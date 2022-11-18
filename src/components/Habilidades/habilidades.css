@@ -1,0 +1,52 @@
+.habilidades{
+    height: 90vh;
+}
+
+.hab_titulo h1{
+    text-align: center;
+    padding-top: 50px;
+    color: #937DC2;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.hab_container{
+    display: flex;
+    /* margin-top: 100px;
+    margin-left: 300px; */
+    display: flex;
+    justify-content: center;
+    height: 76vh;
+    padding: 70px;
+}
+
+.hab_hab{
+    margin: 50px;
+    border-left-color: #937DC2;
+    border-left-style: solid;
+}
+
+.hab_hab  li{
+    list-style: none;
+    font-size: 2rem;
+    margin: 10px;
+    margin-top: 20px;
+    color: #937DC2;
+}
+.hab_hab i{
+    margin-right: 20px;
+}
+
+
+.hab_iconos{
+    height: 40vh;
+    margin: 20px;
+    width: 600px;
+    
+}
+
+.hab_iconos i{
+    font-size: 100px;
+    margin: 20px;
+    color: #937DC2;
+}
