@@ -1,0 +1,53 @@
+.pro_titulo h1{
+    text-align: center;
+    padding-top: 30px;
+    color: #937DC2;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.proyectos{
+    height: 90vh;
+}
+
+.pro_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.proyecto1{
+    width: 450px;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.proyecto1 img{
+    width: 450px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.pro_button ul{
+    display: flex;
+    justify-content: center;
+}
+
+.pro_button ul li{
+    background-color: #937DC2;
+    border-radius: 10px;
+    margin: 6px;
+    padding: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.pro_button ul li:hover{
+    background-color: #bbabde;
+    transition: all 0.3s ease;
+}
+
+.pro_button i{
+    margin: 4px;
+}
+
+
