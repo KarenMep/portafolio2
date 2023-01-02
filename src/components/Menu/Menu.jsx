@@ -17,7 +17,7 @@ export const Menu = () => {
 
                 <ul className="nav_menu">
                     <li className="nav_item">
-                        <a href="#inico" className='nav_links' id='-page'>Inicio</a>
+                        <a href="#inico" className='nav_links' id='inicio-page'>Inicio</a>
                     </li>
                     <li className="nav_item">
                         <a href="#habilidades" className='nav_links' id='-page'>Habilidades</a>

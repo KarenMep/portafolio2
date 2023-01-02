@@ -32,11 +32,11 @@
     margin: 10px;
     margin-top: 20px;
     color: #937DC2;
+    
 }
 .hab_hab i{
     margin-right: 20px;
 }
-
 
 .hab_iconos{
     height: 40vh;
@@ -49,4 +49,8 @@
     font-size: 100px;
     margin: 20px;
     color: #937DC2;
+}
+
+.habilidad{
+    text-decoration: none;
 }
