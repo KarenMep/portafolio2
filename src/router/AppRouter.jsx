@@ -1,12 +1,9 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 
-import { BackendPage } from '../components/Habilidades/pages/BackendPage'
-import { DatabasePage } from '../components/Habilidades/pages/DatabasePage'
-import { DiseñoPage } from '../components/Habilidades/pages/DiseñoPage'
-import { FrontendPage } from '../components/Habilidades/pages/FrontendPage'
-import { HerramientasPage } from '../components/Habilidades/pages/HerramientasPage'
 
-// import { MenuHabilidades } from '../ui/components'
+
+import { BackendPage,DatabasePage, DiseñoPage, FrontendPage, HerramientasPage } from '../components/Habilidades'
+
 
 export const AppRouter = () => {
   return (

@@ -26,18 +26,24 @@
     border-left-style: solid;
 }
 
-.hab_hab  li{
+.habilidad {
     list-style: none;
     font-size: 2rem;
-    margin: 10px;
-    margin-top: 20px;
     color: #937DC2;
-    
-}
-.hab_hab i{
+    text-decoration: none;
     margin-right: 20px;
+
 }
 
+.habilidad li{
+    margin-left: 20px;
+}
+
+.habilidad i{
+    margin-right: 10px;
+}
+
+/* Iconos */
 .hab_iconos{
     height: 40vh;
     margin: 20px;
@@ -52,5 +58,10 @@
 }
 
 .habilidad{
-    text-decoration: none;
 }
+
+.hab_hab .habilidad.active{
+    background-color: #04AA6D;
+    color: #E8A0BF;
+}
+

@@ -1,0 +1,5 @@
+export * from './BackendPage'
+export * from './DatabasePage'
+export * from './DiseñoPage'
+export * from './FrontendPage'
+export * from './HerramientasPage'
