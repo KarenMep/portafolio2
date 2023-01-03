@@ -1,8 +1,9 @@
 import { Navigate, Route, Routes } from 'react-router-dom'
 
-
-
-import { BackendPage,DatabasePage, DiseñoPage, FrontendPage, HerramientasPage } from '../components/Habilidades'
+import { 
+  BackendPage,DatabasePage, 
+  DiseñoPage, FrontendPage, 
+  HerramientasPage } from '../components/Habilidades'
 
 
 export const AppRouter = () => {
