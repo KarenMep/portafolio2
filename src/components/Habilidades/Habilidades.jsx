@@ -1,7 +1,7 @@
 import React from 'react'
-import { AppRouter } from '../../router/AppRouter'
 import { MenuHabilidades } from '../../ui/components'
 import './habilidades.css'
+import { HabilidadesRoutes } from './routes/HabilidadesRoutes'
 
 export const Habilidades = () => {
   return (
@@ -18,7 +18,7 @@ export const Habilidades = () => {
               </div>
 
               <div className="hab_iconos">
-                <AppRouter/>
+                <HabilidadesRoutes/>
               </div>
               
             </div>

@@ -48,15 +48,16 @@
     border-bottom: solid;
     font-weight: bold;
     font-size: 1.3rem;
-
-}
-
-.cer_menu p{
     background-color: #E8A0BF;
     padding: 15px;
     border-right-style: solid;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
+}
+
+.cer_menu.active{
+    color: #000;
 }
 
 .cer_links{

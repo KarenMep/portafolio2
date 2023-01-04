@@ -1,4 +1,6 @@
+import { MenuEducacion } from '../../ui/components/MenuEducacion'
 import './educacion.css'
+import { EducacionRoutes } from './routes/EducacionRoutes'
 
 export const Educacion = () => {
   return (
@@ -25,22 +27,26 @@ export const Educacion = () => {
                 </div>
               </div>
 
-              <div className="certificaciones">
-                <div className="cer_menu">
+              <div className="">
+                <MenuEducacion/>
+                {/* <div className="cer_menu">
                   <p>Udemy</p>
                   <p>Google</p>
                   <p>Microsoft</p>
-                </div>
+                </div> */}
 
               </div>
 
+
+
               <div className="cer_links">
-                    <ul>
+                <EducacionRoutes/>
+                    {/* <ul>
                       <li><i class="fas fa-check-circle"></i>React con Hooks</li>
                       <li><i class="fas fa-check-circle"></i>React con Hooks</li>
                       <li><i class="fas fa-check-circle"></i>React con Hooks</li>
                       <li><i class="fas fa-check-circle"></i>React con Hooks</li>
-                    </ul>
+                    </ul> */}
               </div>
 
             </div>
