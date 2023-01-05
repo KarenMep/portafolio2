@@ -1,4 +1,5 @@
 import React from 'react'
+import { MenuPrincipal } from '../../ui/components/MenuPrincipal'
 import './menu.css'
 
 export const Menu = () => {
@@ -15,7 +16,9 @@ export const Menu = () => {
                     </div>
                 </div>
 
-                <ul className="nav_menu">
+                <MenuPrincipal/>
+
+                {/* <ul className="nav_menu">
                     <li className="nav_item">
                         <a href="#inico" className='nav_links' id='inicio-page'>Inicio</a>
                     </li>
@@ -28,7 +31,7 @@ export const Menu = () => {
                     <li className="nav_item">
                         <a href="#proyectos" className='nav_links' id='-page'>Proyectos</a>
                     </li>
-                </ul>
+                </ul> */}
 
                 <div className="nav_idioma">
                     <span className="material-symbols-outlined">
@@ -38,6 +41,7 @@ export const Menu = () => {
                         language
                     </span>
                 </div>
+
 
             </nav>
 

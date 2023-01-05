@@ -8,35 +8,35 @@ export const MenuHabilidades = () => {
 
                     <NavLink 
                         className={ ({isActive}) => `habilidad ${isActive ? 'active' : ''}`} 
-                        to="/frontend"
+                        to="frontend"
                     >
                         <li><i class="fas fa-window-maximize"></i>Frontend</li>
                     </NavLink>
 
                     <NavLink 
                         className={ ({isActive}) => `habilidad ${isActive ? 'active' : ''}`} 
-                        to="/backend"
+                        to="backend"
                     >
                         <li><i class="fas fa-code"></i>Backend</li>
                     </NavLink>
 
                     <NavLink 
                         className={ ({isActive}) => `habilidad ${isActive ? 'active' : ''}`} 
-                        to="/database"
+                        to="database"
                     >
                         <li><i class="fas fa-database"></i>Databases</li>
                     </NavLink>
 
                     <NavLink 
                         className={ ({isActive}) => `habilidad ${isActive ? 'active' : ''}`} 
-                        to="/diseño"
+                        to="diseño"
                     >
                         <li><i class="fas fa-palette"></i>Diseño</li>
                     </NavLink>
 
                     <NavLink 
                         className={ ({isActive}) => `habilidad ${isActive ? 'active' : ''}`} 
-                        to="/herramientas"
+                        to="herramientas"
                     >
                         <li><i class="fas fa-wrench"></i>Herramientas</li>
                     </NavLink>
