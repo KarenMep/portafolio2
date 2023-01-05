@@ -11,8 +11,8 @@ export const HabilidadesRoutes = () => {
             <Route path='database' element={<DatabasePage/>}/>
             <Route path='diseño' element={<DiseñoPage/>}/>
             <Route path='herramientas' element={<HerramientasPage/>}/>
-            
-            {/* <Route path='/frontend' element={<Navigate to='frontend'/>}/> */}
+
+            {/* <Route path='/habilidades/frontend' element={<Navigate to='habilidades/frontend'/>}/> */}
 
             {/* <Route path='/*' element={<EducacionRoutes/>}/> */}
 

@@ -15,14 +15,14 @@ export const MenuPrincipal = () => {
 
             <NavLink 
                 className={ ({isActive}) => `nav_links ${isActive ? 'active' : ''}`} 
-                to="/habilidades"
+                to="/habilidades/frontend"
             >
                 Habilidades
             </NavLink>
 
             <NavLink 
                 className={ ({isActive}) => `nav_links ${isActive ? 'active' : ''}`} 
-                to="/educacion"
+                to="/educacion/udemy"
             >
                 Educacion
             </NavLink>

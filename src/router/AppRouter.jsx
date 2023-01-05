@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Navigate, Route, Routes } from "react-router-dom"
 import { Educacion } from "../components/Educacion/Educacion"
 import { Habilidades } from "../components/Habilidades/Habilidades"
 import { Inicio } from "../components/Inicio/Inicio"
@@ -12,6 +12,8 @@ export const AppRouter = () => {
             <Route path='habilidades/*' element={<Habilidades/>}/>
             <Route path='educacion/*' element={<Educacion/>}/>
             <Route path='proyectos' element={<Proyectos/>}/>
+
+            <Route path='/' element={<Navigate to='/inicio'/> }/>
             
         </Routes>
     </>
